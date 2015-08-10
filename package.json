@@ -1,6 +1,6 @@
 {
   "name": "endebuggify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eliminate console.log/warn/error() statement from source file, except for files matching given pattern.",
   "main": "endebuggify.js",
   "scripts": {
@@ -10,6 +10,21 @@
     "type": "git",
     "url": "git://github.com/stomita/endebuggify.git"
   },
+  "keywords": [
+    "browserify",
+    "browserify-transform",
+    "strip",
+    "debug",
+    "debugger",
+    "log",
+    "logging",
+    "console",
+    "console.log",
+    "console.debug",
+    "console.info",
+    "console.warn",
+    "console.error"
+  ],
   "author": "Shinichi Tomita<shinichi.tomita@gmail.com>",
   "license": "MIT",
   "dependencies": {
