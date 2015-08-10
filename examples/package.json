@@ -1,0 +1,12 @@
+{
+  "name": "example",
+  "private": true,
+  "scripts": {
+    "prestart": "npm install -S \"file:..\"",
+    "start": "browserify -t [ endebuggify --target 'dir/dir2/**' ] main.js"
+  },
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "endebuggify": "file:.."
+  }
+}

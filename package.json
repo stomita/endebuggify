@@ -1,0 +1,27 @@
+{
+  "name": "endebuggify",
+  "version": "1.0.0",
+  "description": "Eliminate console.log/warn/error() statement from source file, except for files matching given pattern.",
+  "main": "endebuggify.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stomita/endebuggify.git"
+  },
+  "author": "Shinichi Tomita<shinichi.tomita@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimatch": "^2.0.10",
+    "stripify": "^3.0.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.0",
+    "espower-loader": "^0.11.0",
+    "intelli-espower-loader": "^0.7.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0"
+  }
+}
